@@ -1,0 +1,9 @@
+.car {
+  width: 300px;
+}
+.container {
+  background-image: url("./background.jpg");
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+}
