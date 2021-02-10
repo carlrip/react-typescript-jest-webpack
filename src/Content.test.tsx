@@ -4,6 +4,6 @@ import { Content } from "./Content";
 
 test("Content contains var image", () => {
   render(<Content />);
-  const car = screen.getAllByAltText("Car");
-  expect(car).not.toBeNull();
+  const car = screen.getByAltText("Car");
+  expect(car).toBeInTheDocument();
 });

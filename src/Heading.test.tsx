@@ -5,5 +5,5 @@ import { Heading } from "./Heading";
 test("Header contains correct text", () => {
   render(<Heading />);
   const text = screen.getByText("My React and TypeScript App");
-  expect(text).not.toBeNull();
+  expect(text).toBeInTheDocument();
 });
